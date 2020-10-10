@@ -40,8 +40,12 @@ a:hover {
 .listItem:hover {
   transform: scaleY(1.1);
 }
-@media(max-height:800px){
+@media(max-width:600px){
   .listItem{
     font-size: 16px;
+  }
+  #footer1, #footer2{
+    display: none;
+    visibility: hidden;
   }
 }
