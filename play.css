@@ -77,9 +77,9 @@
 .hidden {
   visibility: hidden;
 }
-@media (max-width: 960px) {
+@media (max-width: 600px) {
   #question {
-    font-size: 24px;
+    font-size: 20px;
   }
   #choice1 {
     font-size: 16px;
@@ -97,10 +97,10 @@
     font-size: 20px;
   }
   .questionmark{
-    font-size: 24px;
+    font-size: 20px;
   }
 }
-@media(max-width: 800px) {
+@media(max-width: 600px) {
   #footer1, #footer2 {
     visibility: hidden;
   }
@@ -112,5 +112,9 @@
   }
   .choice2Btn{
     top: 65%;
+  }
+  .questionBtn{
+    position: absolute;
+    top: 15%;
   }
 }
