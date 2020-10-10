@@ -2,6 +2,7 @@
   background-color: #c62828;
   border-radius: 50px;
   color: inherit;
+  width: 50%;
 }
 .textanimation {
   animation: bounceInDown;
@@ -39,4 +40,9 @@
 .logohover:hover {
   animation: shakeX;
   animation-duration: 2s;
+}
+@media(max-width:800px){
+  .buttons{
+    width: 100%;
+  }
 }
