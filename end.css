@@ -61,4 +61,7 @@ a:hover {
   .username{
     font-size:16px;
   }
+  .center{
+    top:25%;
+  }
 }
