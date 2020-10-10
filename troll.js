@@ -214,7 +214,6 @@ var dareCorrect = [
   "Choose a girl. Empty a water bottle on her head",
   "Choose a boy. He has to do 10 pushups",
   "Choose a girl. She has to do 10 pushups",
-  "Επιλέγεις 1 κορίτσι. Πρέπει να ξεβαφτεί.",
   "Choose a boy. He has to act like a cat for the rest of the game",
   "Choose a girl. She has to act like a cat for the rest of the game",
   "Choose a boy. He has to act like a dog for the rest of the game",
