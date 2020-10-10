@@ -20,9 +20,9 @@ a:hover {
   animation-duration: 2s;
 }
 .home {
-   width:20vw;
+   width:40vw;
    position:relative;
-   left:40%;
+   left:30%;
    font-size:26px;
    animation-name: backInUp;
    animation-duration: 2s;
@@ -41,7 +41,7 @@ a:hover {
   transform: scaleY(1.1);
 }
 @media(max-width:600px){
-  .listItem{
+  .listItem, .home{
     font-size: 16px;
   }
   #footer1, #footer2{
