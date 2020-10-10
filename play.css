@@ -108,13 +108,13 @@
     top: 80%;
   }
   .choice1Btn{
-    top: 55%;
+    top: 50%;
   }
   .choice2Btn{
     top: 65%;
   }
   .questionBtn{
     position: absolute;
-    top: 15%;
+    top: 20%;
   }
 }

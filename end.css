@@ -52,9 +52,12 @@ a:hover {
 .save:hover, .playAgain:hover, .home:hover{
   transform: scaleY(1.2);
 }
-@media (max-height: 780px){
-  .center{
-    position: absolute;
-    top: 20%;
+
+@media (max-width:600px) {
+  #footer1, #footer2{
+    visibility: hidden;
+  }
+  .username{
+    font-size:16px;
   }
 }
