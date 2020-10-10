@@ -55,6 +55,7 @@ a:hover {
 
 @media (max-width:600px) {
   #footer1, #footer2{
+    display: none;
     visibility: hidden;
   }
   .username{
