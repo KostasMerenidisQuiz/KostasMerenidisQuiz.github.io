@@ -1,0 +1,42 @@
+.buttons{
+  background-color: #c62828;
+  border-radius: 50px;
+  color: inherit;
+}
+.textanimation {
+  animation: bounceInDown;
+  animation-delay: 0s;
+  animation-duration: 2s;
+}
+.logoanimation {
+  animation: bounceInLeft;
+  animation-delay: 0s;
+  animation-duration: 2s;
+}
+.button1animation {
+  animation: backInRight;
+  animation-delay: 0s;
+  animation-duration: 3s;
+}
+.button2animation {
+  animation: backInLeft;
+  animation-delay: 0s;
+  animation-duration: 3s;
+}
+.button3animation {
+  animation: backInUp;
+  animation-delay: 0s;
+  animation-duration: 3s;
+}
+.buttons:hover {
+  text-decoration: none;
+  color: inherit;
+  transform: scale(1.1);
+  animation: headShake;
+  animation-duration: 1s;
+  color: black;
+}
+.logohover:hover {
+  animation: shakeX;
+  animation-duration: 2s;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kostas Merenidis">
+    <meta name="description" content="quiz web application home page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50-50 Quiz App Highscores</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="highscores.css">
+  </head>
+  <body style="background-color:#263238" class="text-white">
+    <header>
+      <!-- logo image -->
+      <a href="index.html"><img src="./images/logo3.png" class="logoimg"></a>
+      <!-- Wave -->
+      <div style="height: 150px;">
+        <svg viewBox="0 0 500 160" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #c62828"></path>
+        </svg>
+      </div>
+    </header>
+    <main>
+      <!-- Highscores -->
+      <div class="d-flex flex-column center text-center">
+        <h1 class="display-3 highscores">High Scores</h1>
+        <ul id="highScoresList"></ul>
+        <a class="btn btn-outline-danger home" href="./index.html" role="button">Home</a>
+      </div>
+    </main>
+    <footer>
+      <div class="d-flex flex-column text-center fixed-bottom">
+        <div class="p-2 lead" style="background-color:#c62828;">Did you like the quiz? Do you have any recommendations? Send me an email.</div>
+        <div class="p-2 lead" style="background-color:#c62828;"><i class="fas fa-mail-bulk"></i> kostasmere@gmail.com</div>
+         <div class="p-2 lead" style="background-color:#b71c1c;"><i class="far fa-copyright"></i> 2020 Copyright: 50-50 Quiz All Rights Reserved</div>
+       </div>
+    </footer>
+  </body>
+  <script src="highscores.js"></script>
+</html>

@@ -1,0 +1,47 @@
+a:hover {
+  text-decoration: none;
+}
+.logoimg{
+  width: 79.4px;
+  height: 92px;
+  border-radius: 20px;
+  position: absolute;
+  top: 0px;
+  left: 25%;
+}
+.center {
+  position: absolute;
+  top: 20%;
+}
+.highscores {
+  width: 100vw;
+  color: #c62828;
+  animation-name: backInDown;
+  animation-duration: 2s;
+}
+.home {
+   width:20vw;
+   position:relative;
+   left:40%;
+   font-size:26px;
+   animation-name: backInUp;
+   animation-duration: 2s;
+}
+#highScoresList{
+  list-style: none;
+}
+.listItem{
+  color: #c62828;
+  font-size: 26px;
+  margin-right: 40px;
+  animation-name: fadeInLeft;
+  animation-duration: 2s;
+}
+.listItem:hover {
+  transform: scaleY(1.1);
+}
+@media(max-height:800px){
+  .listItem{
+    font-size: 16px;
+  }
+}

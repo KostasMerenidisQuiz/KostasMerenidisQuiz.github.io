@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kostas Merenidis">
+    <meta name="description" content="quiz web application classic version">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50-50 Quiz App Classic Version</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./play.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/63c18f78be.js" crossorigin="anonymous"></script>
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body style="background-color:#263238;" class="text-white">
+    <header>
+      <!-- logo image -->
+      <a href="index.html"><img src="./images/logo3.png" class="logoimg"></a>
+      <!-- Wave -->
+      <div style="height: 150px;">
+        <svg viewBox="0 0 500 180" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #c62828"></path>
+        </svg>
+      </div>
+    </header>
+    <!-- Spinner -->
+    <div class="spinner-border text-danger" id="spinner" style="position:absolute; top:40%; left:50%;">
+    </div>
+    <main class="hidden" id="main">
+      <!-- Question -->
+      <div class="container-fluid">
+        <div class="row text-center border border-dark rounded m-2" style="color:black; background-color:#c62828;">
+          <div class="col-12">
+            <h1><i class="far fa-question-circle questionmark"></i></h1>
+            <h1 id="question"></h1> <button type="button" class="btn btn-dark btn-lg" id="nextQuestion">Next Question</button>
+          </div>
+        </div>
+      </div>
+      <!-- Answers -->
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-12 border border-dark rounded choice1Btn">
+            <p id="choice1"></p>
+          </div>
+          <div class="col-12 border border-dark rounded choice2Btn">
+            <p id="choice2"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Score and number of question -->
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-6 scoreContainer">
+            <p>Score: <span id="scoreText"></span></p>
+          </div>
+          <div class="col-6 questionContainer">
+            <p>Question: <span id="questionCounterText"></span></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="d-flex flex-column text-center fixed-bottom">
+        <div class="p-2 lead" id="footer1" style="background-color:#c62828;">Did you like the quiz? Do you have any recommendations? Send me an email.</div>
+        <div class="p-2 lead" id="footer2" style="background-color:#c62828;"><i class="fas fa-mail-bulk"></i> kostasmere@gmail.com</div>
+         <div class="p-2 lead" style="background-color:#b71c1c;"><i class="far fa-copyright"></i> 2020 Copyright: 50-50 Quiz All Rights Reserved</div>
+       </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./troll.js"></script>
+  </body>
+
+</html>

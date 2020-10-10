@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kostas Merenidis">
+    <meta name="description" content="quiz web application home page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50-50 Quiz App Results</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="end.css">
+  </head>
+  <body style="background-color:#263238" class="text-white">
+    <header>
+      <!-- logo image -->
+      <a href="index.html"><img src="./images/logo3.png" class="logoimg"></a>
+      <!-- Wave -->
+      <div style="height: 150px;">
+        <svg viewBox="0 0 500 160" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #c62828"></path>
+        </svg>
+      </div>
+    </header>
+    <main>
+      <!-- Total Score Save Username Play again Home -->
+      <div class="d-flex flex-column center text-center">
+        <div class="totalScore mb-3" id="finalScore"></div>
+        <input class="border username text-center mb-3" id="username" placeholder="Username">
+        <div class="border save mb-3"  id="saveScore">Save</div>
+        <a href="./play.html"><div class="border playAgain mb-3">Play Again</div></a>
+        <a href="./index.html"><div class="border home">Home</div></a>
+      </div>
+    </main>
+    <footer>
+      <div class="d-flex flex-column text-center fixed-bottom">
+        <div class="p-2 lead" style="background-color:#c62828;">Did you like the quiz? Do you have any recommendations? Send me an email.</div>
+        <div class="p-2 lead" style="background-color:#c62828;"><i class="fas fa-mail-bulk"></i> kostasmere@gmail.com</div>
+         <div class="p-2 lead" style="background-color:#b71c1c;"><i class="far fa-copyright"></i> 2020 Copyright: 50-50 Quiz All Rights Reserved</div>
+       </div>
+    </footer>
+    <!-- Bootstrap JQuery, PopperJS and JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./end.js"></script>
+  </body>
+</html>
